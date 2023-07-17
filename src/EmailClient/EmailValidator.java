@@ -17,6 +17,7 @@ public class EmailValidator {
     public boolean validate(String email) {
         matcher = pattern.matcher(email);
         return matcher.matches();
+
     }
 }
 
