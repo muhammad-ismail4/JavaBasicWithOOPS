@@ -13,10 +13,10 @@ public class EmailClient {
     }
 
     public void sendEmail(String recipient, String subject, String body){
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        System.out.println("Sending email to: " + recipient);
+        System.out.println("Subject: " + subject);
+        System.out.println("Body: " + body);
+        System.out.println("Email sent successfully!");
 
     }
 }
