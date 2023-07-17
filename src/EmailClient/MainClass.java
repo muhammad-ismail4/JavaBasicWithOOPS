@@ -8,7 +8,6 @@ public class MainClass {
         // Create an instance of EmailClient
         EmailClient emailClient = new EmailClient("smtp.example.com", "your_username", "your_password");
         EmailValidator emailValidator = new EmailValidator();
-
         // Prompt the user for email details
         Scanner scanner = new Scanner(System.in);
 
